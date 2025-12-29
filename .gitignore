@@ -1,0 +1,16 @@
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Ficheiros de parâmetros que podem ter passwords
+*.parameters.json
+local.settings.json
+
+# Editors
+.vscode/
+.idea/
+
