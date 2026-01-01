@@ -5,7 +5,7 @@
 ![Module: Administer Governance & Compliance](https://img.shields.io/badge/Module-Administer%20Governance%20%26%20Compliance-0078D4?logo=microsoft&logoColor=white)
 
 > 📘 **AZ-104 Hands-on Lab**  
-> Part of my practical preparation for the Microsoft Azure Administrator certification.
+>  Part of my practical preparation for the Microsoft Azure Administrator certification.
 
 ## Overview
 
