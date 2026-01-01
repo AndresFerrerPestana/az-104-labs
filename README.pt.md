@@ -3,7 +3,7 @@
 
 # AZ-104 — Microsoft Azure Administrator Labs
 
-👉 [Click here for the English version](README.md)
+👉 [Click aqui para versão Inglês](README.md)
 
 Este repositório documenta os meus **laboratórios práticos (hands-on)** para a certificação  
 **AZ-104: Microsoft Azure Administrator**, com base nos materiais oficiais do **Microsoft Learn**.
