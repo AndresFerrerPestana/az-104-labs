@@ -1,4 +1,6 @@
-# Lab 01 – Manage Microsoft Entra ID Identities
+# Lab 01 – Manage Microsoft Entra ID Identities ![](https://img.shields.io/badge/English-EN-green)
+
+[Click here for the Portuguese version](README.pt.md)
 
 This lab focuses on managing identities in Microsoft Entra ID, including
 the creation of internal users, invitation of external (B2B) guest users,
