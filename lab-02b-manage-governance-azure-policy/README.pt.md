@@ -4,8 +4,8 @@
 
 ![Módulo: Administrar Governação e Conformidade](https://img.shields.io/badge/Module-Administer%20Governance%20%26%20Compliance-0078D4?logo=microsoft&logoColor=white)
 
-> 📘 **Laboratório Prático AZ-104 (Portuguese)**
-> Parte da minha preparação prática para a certificação de Administrador Microsoft Azure.
+> 📘 **AZ-104 Hands-on Lab (Poruguese)**  
+> Part of my practical preparation for the Microsoft Azure Administrator certification.
 
 ## Visão Geral
 
