@@ -1,6 +1,6 @@
-# Lab 01 – Gerir Identidades no Microsoft Entra ID ![](https://img.shields.io/badge/Português-PT-blue)
+# Lab 01 – Gerir Identidades no Microsoft Entra ID ![](https://img.shields.io/badge/Português-PT-green)
 
-[Clique aqui para a versão em Inglês](README.md)
+🇬🇧 [English version](README.md)
 
 Este laboratório foca-se na gestão de identidades no **Microsoft Entra ID**, incluindo:
 a criação de utilizadores internos, o convite de utilizadores externos (B2B) e

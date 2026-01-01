@@ -1,6 +1,6 @@
 # Laboratório 02a — Gerir Assinaturas e RBAC ![](https://img.shields.io/badge/Português-PT-green)
 
-[Click aqui para versão Inglês](README.md)
+🇬🇧 [English version](README.md)
 
 ![Módulo: Administer Governance & Compliance](https://img.shields.io/badge/Module-Administer%20Governance%20%26%20Compliance-0078D4?logo=microsoft&logoColor=white)
 

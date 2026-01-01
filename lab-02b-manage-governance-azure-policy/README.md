@@ -1,6 +1,6 @@
 # Lab 02b — Manage Governance via Azure Policy ![](https://img.shields.io/badge/English-EN-green)
 
-[Click here for the Portuguese version](README.pt.md)
+🇵🇹 [Versão em Português](README.pt.md)
 
 ![Module: Administer Governance & Compliance](https://img.shields.io/badge/Module-Administer%20Governance%20%26%20Compliance-0078D4?logo=microsoft&logoColor=white)
 
