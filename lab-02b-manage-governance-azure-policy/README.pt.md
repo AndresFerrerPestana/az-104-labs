@@ -1,4 +1,4 @@
-# Laboratório 02b — Gerir a Governação via Azure Policy ![](https://img.shields.io/badge/English-EN-green)
+# Laboratório 02b — Gerir a Governação via Azure Policy ![](https://img.shields.io/badge/Português-PT-green)
 
 [Click aqui para versão Inglês](README.md)
 
