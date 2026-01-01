@@ -2,6 +2,9 @@
 
 🇵🇹 [Versão em Português](README.pt.md)
 
+> 📘 **AZ-104 Hands-on Lab (English)**  
+> Part of my practical preparation for the Microsoft Azure Administrator certification.
+
 This lab focuses on managing identities in Microsoft Entra ID, including
 the creation of internal users, invitation of external (B2B) guest users,
 and the configuration of security groups with proper membership and ownership.
