@@ -2,7 +2,7 @@
 
 ## Tooling choices
 
-- **Portal (Task 1–2):** good for learning and visual validation; generates/export ARM templates.
+- **Portal (Task 1–2):** good for learning and visual validation; generates and exports ARM templates.
 - **PowerShell (Task 3):** common in admin environments and automation with Az modules.
 - **Azure CLI (Task 4):** cross-platform and frequently used in pipelines.
 - **Bicep (Task 5):** improves readability and maintainability over raw ARM JSON.
@@ -44,7 +44,7 @@ Key takeaways:
   - migration paths
   - future compatibility
 
-For this lab environment, **Standard HDD** remains appropriate because:
+For this lab environment, **Standard HDD** remains an appropriate choice because:
 
 - the environment is short-lived
 - performance is not a requirement
@@ -58,3 +58,21 @@ This task reinforces:
 - resource lifecycle and SKU considerations
 - cost-aware design decisions
 - separation between lab and production environments
+
+## Resource Group creation documentation scope
+
+The creation of the Resource Group `az104-rg3` was intentionally not documented as a full step-by-step tutorial.
+
+Rationale:
+
+- Resource Group creation is a foundational operation, not the focus of this lab
+- The primary learning objective is ARM-based deployment methods
+- Recreating the Resource Group solely for documentation would introduce unnecessary churn
+
+Instead, the Resource Group creation is documented through:
+
+- architectural context
+- governance rationale
+- visual confirmation of the final state
+
+This approach also aligns with the cleanup strategy defined for the lab.
