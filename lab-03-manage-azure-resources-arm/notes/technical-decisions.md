@@ -16,3 +16,45 @@
 
 - Default: **East US** (align with the official lab steps)
 - Can be changed if required by subscription limitations.
+
+## Disk SKU selection
+
+For Task 1, **Standard HDD (S4, 32 GiB)** was selected instead of Premium SSD.
+
+Reasoning:
+
+- aligns with the official lab guidance
+- minimizes cost for a short-lived lab environment
+- disk performance is not relevant for ARM template deployment learning
+
+## Disk retirement notice (future consideration)
+
+During disk creation, the Azure Portal displays the following notice:
+
+> **“Standard HDD OS disks will be retired on September 8, 2028.”**
+
+Although this lab uses a **data disk** and not an OS disk, this notice is still relevant from a governance and lifecycle perspective.
+
+Key takeaways:
+
+- Azure services and SKUs evolve over time and may be deprecated.
+- Administrators must consider **service lifecycle** when designing long-term solutions.
+- For production workloads, disk SKU selection should account for:
+  - support timelines
+  - migration paths
+  - future compatibility
+
+For this lab environment, **Standard HDD** remains appropriate because:
+
+- the environment is short-lived
+- performance is not a requirement
+- cost optimization is a priority
+
+## AZ-104 relevance
+
+This task reinforces:
+
+- understanding of ARM as the Azure control plane
+- resource lifecycle and SKU considerations
+- cost-aware design decisions
+- separation between lab and production environments

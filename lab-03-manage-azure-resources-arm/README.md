@@ -59,7 +59,7 @@ This lab deploys multiple **Azure Managed Disks** inside a single Resource Group
 
 ### Architecture notes
 
-Detailed architecture and deployment flow:
+Detailed architecture and deployment flow:  
 ➡️ [notes/architecture.md](notes/architecture.md)
 
 ---
@@ -117,12 +117,50 @@ Using a dedicated Resource Group allows:
 - Resource Group overview (initial state, no deployments)  
   ![Resource group overview](screenshots/03-rg-details-overview.png)
 
-## Task 1 — Portal Deployment & Export Template
+---
 
-- What was done
-- Technical decision
-- Evidence (screenshots)
-- AZ-104 learning points
+## Task 1 — Create Managed Disk and Export ARM Template
+
+In this task, an Azure Managed Disk was created using the Azure Portal and the corresponding ARM template was exported for reuse in subsequent tasks.
+
+### Objective
+
+- Create a baseline Azure resource using the Portal
+- Understand how Azure Resource Manager (ARM) handles deployments
+- Export an ARM template for Infrastructure-as-Code reuse
+
+### Step-by-step guide
+
+Detailed tutorial available here:  
+➡️ [notes/task1-portal-disk.md](notes/task1-portal-disk.md)
+
+### Evidence
+
+- Disk creation (Basics)  
+  ![Disk creation basics](screenshots/04-disk1-create-basics.png)
+
+- Review and validation  
+  ![Review and create](screenshots/05-disk1-review-create.png)
+
+- ARM deployment overview  
+  ![Deployment overview](screenshots/06-disk1-deployment-overview.png)
+
+- Disk resource overview  
+  ![Disk overview](screenshots/07-disk1-resource-overview.png)
+
+- ARM template export  
+  ![Export template](screenshots/08-disk1-export-template.png)
+
+### Output
+
+- `templates/task1-exported/template.json`
+- `templates/task1-exported/parameters.json`
+
+### AZ-104 learning points
+
+- Azure Portal deployments are executed through ARM
+- Deployments and resources are distinct control-plane objects
+- Exported templates are a starting point, not production-ready artifacts
 
 ---
 
@@ -170,13 +208,13 @@ _To be completed_
 
 ## AZ-104 Exam Mapping
 
-- ARM is the control-plane deployment engine
-- Templates are idempotent
-- Deployments are scoped (RG / Subscription / MG)
-- Bicep is a recommended abstraction over ARM JSON
+- ARM is the Azure control-plane deployment engine
+- ARM templates are idempotent
+- Deployments are scoped (Resource Group / Subscription / Management Group)
+- Bicep is the recommended abstraction over ARM JSON
 
 ---
 
 ## Lab Status
 
-🟡 In progress — Resource Group created
+🟡 In progress — **Task 1 completed**
