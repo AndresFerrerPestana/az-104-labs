@@ -80,3 +80,66 @@ Expected output (example):
 ![Parameters file after update](../screenshots/21-task4-step2-parameters-after-update.png)
 
 _Confirming that the disk name parameter was successfully updated to `az104-disk4` in `parameters.json`._
+
+### Step 3 — Deploy the ARM template using Azure CLI
+
+With the parameters file updated, deploy the ARM template using **Azure CLI** from **Azure Cloud Shell**.
+
+This deployment will create a **new managed disk** using the same template, controlled only by parameter values.
+
+---
+
+#### Step 3.1 — Run the deployment command
+
+Execute the following command in Cloud Shell:
+
+```bash
+az deployment group create `
+  --resource-group az104-rg3 `
+  --template-file templates/task1-exported/template.json `
+  --parameters templates/task1-exported/parameters.json
+
+```
+
+### Step 3.2 — Review the deployment output
+
+If the deployment is successful, the output will include:
+
+- `"provisioningState": "Succeeded"`
+
+- The parameter value used for the deployment:
+
+  - az104-disk4
+
+Example indicators in the output:
+
+```powershell
+ProvisioningState : Succeeded
+```
+
+![Azure CLI deployment succeeded](../screenshots/21-task4-step3-cli-deployment-succeeded.png)
+
+_Successful ARM template deployment using Azure CLI. The output confirms an incremental deployment and the creation of the managed disk `az104-disk4`._
+
+### Step 4 — Verify the deployed resource in Azure Portal
+
+After the successful deployment using Azure CLI, verify that the new managed disk was created in the Azure Portal.
+
+1. In the Azure Portal, navigate to **Resource groups**
+2. Open the resource group **az104-rg3**
+3. Review the list of resources
+
+The newly deployed managed disk should be visible:
+
+- **Disk name:** `az104-disk4`
+- **Resource type:** Managed disk
+- **Status:** Available / Unattached
+
+![Managed disk az104-disk4 visible in Azure Portal](../screenshots/21-task4-step4-verify-disk-portal.png)
+
+_Verifying in the Azure Portal that the managed disk `az104-disk4` was successfully created as a result of the Azure CLI deployment._
+
+---
+
+**Result:**  
+The ARM template was successfully deployed using **Azure CLI**, and the new managed disk (`az104-disk4`) is confirmed both via **CLI output** and **Azure Portal verification**.
