@@ -205,6 +205,16 @@ nano templates/task1-exported/parameters.json
 
 _Editing the `parameters.json` file in Azure Cloud Shell using `nano` to update the disk name parameter._
 
+**Save and exit the editor**
+
+After updating the parameter value, save the file and exit the `nano` editor:
+
+1. Press **Ctrl + O** to write the changes to the file
+2. Press **Enter** to confirm the file name
+3. Press **Ctrl + X** to exit the editor
+
+You are then returned to the Cloud Shell prompt.
+
 ### Step 3.6 — Confirm updated parameter value
 
 ![Parameters file after updating the disk name](../screenshots/21-task3-step3-parameters-after-edit.png)
