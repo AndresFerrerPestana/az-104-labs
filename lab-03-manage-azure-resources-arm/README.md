@@ -292,4 +292,4 @@ The rationale behind this decision is explained here:
 
 ## Lab Status
 
-🟡 In progress — **Task 2 completed**
+🟡 In progress — **Lab 03**
