@@ -227,14 +227,24 @@ Deployment results and verification screenshots are included in the step-by-step
 
 ## Task 4 — Azure CLI Deployment
 
-In this task, the ARM template exported in **Task 1** was reused to deploy an additional managed disk using **Azure CLI** in **Azure Cloud Shell**.
+In this task, the ARM template exported in Task 1 was reused to deploy an additional managed disk (`az104-disk4`) using **Azure CLI** in **Azure Cloud Shell**.
 
-The deployment demonstrates:
+### Objective
 
-- Reuse of an existing ARM template
-- Parameter-driven deployments without modifying the template
-- Consistent behavior across Portal, PowerShell, and Azure CLI
-- Successful validation of the deployed resource in the Azure Portal
+- Reuse an existing ARM template
+- Deploy a new resource using Azure CLI
+- Modify deployment behavior by changing parameter values only
+- Demonstrate template reusability and declarative deployments
+
+### Step-by-step guide
+
+Detailed instructions are available here:
+
+📄 [notes/task4-azure-cli-deploy.md](notes/task4-azure-cli-deploy.md)
+
+### Evidence
+
+Deployment results and verification screenshots are included in the step-by-step guide.
 
 ---
 
