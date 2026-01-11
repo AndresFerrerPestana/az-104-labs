@@ -166,7 +166,39 @@ Detailed tutorial available here:
 
 ## Task 2 — Custom Template Deployment (Portal)
 
-_To be completed_
+In this task, the ARM template exported in Task 1 was reused to deploy a second managed disk (`az104-disk2`) using **Custom template deployment** in the Azure Portal.
+
+### Objective
+
+- Reuse an existing ARM template
+- Deploy a new resource by changing only parameter values
+- Demonstrate template reusability and idempotency
+
+### Step-by-step guide
+
+Detailed tutorial available here:  
+➡️ [notes/task2-custom-template.md](notes/task2-custom-template.md)
+
+### Evidence
+
+- Custom template entry  
+  ![Custom template entry](screenshots/11-task2-custom-template-entry.png)
+
+- ARM template loaded in editor  
+  ![Template loaded](screenshots/14-task2-template-loaded.png)
+
+- Parameter update (Disk 2)  
+  ![Disk2 parameters](screenshots/15-task2-parameters-disk2.png)
+
+- Deployment overview  
+  ![Task 2 deployment](screenshots/16-task2-deployment-overview.png)
+
+### AZ-104 learning points
+
+- ARM templates can be safely reused across deployments
+- Changing parameters allows controlled creation of similar resources
+- ARM deployments are declarative and idempotent
+- Deployment operations are recorded at the control-plane level
 
 ---
 
@@ -226,4 +258,4 @@ The rationale behind this decision is explained here:
 
 ## Lab Status
 
-🟡 In progress — **Task 1 completed**
+🟡 In progress — **Task 2 completed**
