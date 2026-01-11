@@ -129,6 +129,8 @@ Confirm the folder was created:
 ls templates
 ```
 
+![Creating the template folder structure in Azure Cloud Shell](../screenshots/21-task3-step3-create-folders-cloudshell.png)
+
 ### Step 3.3 — Upload the exported ARM files to Cloud Shell
 
 Now upload the exported files from your local machine into Cloud Shell.
@@ -327,5 +329,3 @@ _Verification of the managed disk using Azure PowerShell. The output confirms th
 
 As an additional verification step, Azure PowerShell was used to list managed disks in the resource group.  
 The output confirms that the managed disk exists and was successfully provisioned.
-
-## Step 5 - Validate the deployment
