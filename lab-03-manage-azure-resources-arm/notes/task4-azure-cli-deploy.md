@@ -72,3 +72,11 @@ Get-Content templates/task1-exported/parameters.json
 ```
 
 Expected output (example):
+
+```powershell
+"value": "az104-disk4"
+```
+
+![Parameters file after update](../screenshots/21-task4-step2-parameters-after-update.png)
+
+_Confirming that the disk name parameter was successfully updated to `az104-disk4` in `parameters.json`._
