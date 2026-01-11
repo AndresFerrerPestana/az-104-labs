@@ -47,6 +47,8 @@ available inside **Azure Cloud Shell**.
 This step ensures that the same template can be deployed using Azure PowerShell,
 without copying or modifying its contents.
 
+![Cloud Shell session ready](../screenshots/21-task3-cloudshell-powershell-ready.png)
+
 ### Upload the template files
 
 1. In Cloud Shell, click **Upload/Download files** → **Upload**
