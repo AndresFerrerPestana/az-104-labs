@@ -171,6 +171,8 @@ template.json
 parameters.json
 ```
 
+![ARM files moved to the correct Cloud Shell directory](../screenshots/21-task3-step3-arm-files-moved-to-correct-directory.png)
+
 _ARM template and parameters files organized in the correct Cloud Shell directory._
 
 ### Step 3.5 — Review and update the parameters file
