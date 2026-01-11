@@ -194,9 +194,18 @@ _To be completed_
 
 ---
 
-## Technical Decisions
+### Technical decision
 
-➡️ Detailed notes: [notes/technical-decisions.md](notes/technical-decisions.md)
+Using a dedicated Resource Group allows:
+
+- isolation of lab resources
+- simplified cost tracking
+- centralized visibility of deployments and activity logs
+- full cleanup at the end of the lab
+
+The Resource Group was intentionally not documented as a full step-by-step tutorial.  
+The rationale behind this decision is explained here:  
+➡️ [notes/technical-decisions.md](notes/technical-decisions.md)
 
 ---
 
