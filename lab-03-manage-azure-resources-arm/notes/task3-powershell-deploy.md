@@ -292,6 +292,10 @@ If the deployment is successful, the output will show:
 
 - `ProvisioningState : Succeeded`
 
+![Provisioning state succeeded](../screenshots/21-task3-step4-verify-provisioningstate-succeeded.png)
+
+_Reviewing the provisioning state of the deployed resource. The `ProvisioningState` is set to `Succeeded`, confirming a successful deployment._
+
 No existing resources are modified.
 
 ### Step 4.4 — Verify the resource in Azure
