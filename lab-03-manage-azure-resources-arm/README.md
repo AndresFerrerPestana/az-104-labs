@@ -204,7 +204,24 @@ Detailed tutorial available here:
 
 ## Task 3 — PowerShell Deployment
 
-_To be completed_
+In this task, the ARM template exported in Task 1 was reused to deploy a third managed disk (`az104-disk3`) using **Azure PowerShell** in **Azure Cloud Shell**.
+
+### Objective
+
+- Reuse an existing ARM template
+- Deploy a new resource using Azure PowerShell
+- Modify deployment behavior by changing parameter values only
+- Demonstrate template reusability and declarative deployments
+
+### Step-by-step guide
+
+Detailed instructions are available here:
+
+📄 [`notes/task3-powershell-deployment.md`](notes/task3-powershell-deployment.md)
+
+### Evidence
+
+Deployment results and verification screenshots are included in the step-by-step guide.
 
 ---
 
