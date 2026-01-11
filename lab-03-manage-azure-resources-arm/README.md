@@ -217,7 +217,7 @@ In this task, the ARM template exported in Task 1 was reused to deploy a third m
 
 Detailed instructions are available here:
 
-📄 [`notes/task3-powershell-deployment.md`](notes/task3-powershell-deployment.md)
+📄 [`notes/task3-powershell-deployment.md`](notes/task3-powershell-deploy.md)
 
 ### Evidence
 
