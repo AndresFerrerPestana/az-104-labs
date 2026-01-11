@@ -221,10 +221,107 @@ You are then returned to the Cloud Shell prompt.
 
 _Confirming that the disk name parameter was successfully updated to `az104-disk3` in `parameters.json`._
 
-## Step 4 - Deploy the template using Azure PowerShell
+## Step 4 — Deploy ARM template using Azure PowerShell
+
+In this step, the ARM template is deployed using **Azure PowerShell** in **Azure Cloud Shell**.
+
+The deployment uses:
+
+- The **same ARM template** exported in Task 1
+- The **updated parameters file** from Step 3
+- A **new managed disk** (`az104-disk3`) is created
+
+---
+
+### Prerequisites
+
+- Resource Group: `az104-rg3`
+- ARM template files available in Cloud Shell:
+  - `templates/task1-exported/template.json`
+  - `templates/task1-exported/parameters.json`
+- Azure Cloud Shell opened in **PowerShell**
+
+---
+
+### Step 4.1 — Verify the template and parameters files
+
+Before deploying, confirm that the files exist in the expected location:
+
+```powershell
+ls templates/task1-exported
+```
+
+![ARM template files ready for deployment](../screenshots/21-task3-step4-verify-template-files.png)
+
+_Verifying that `template.json` and `parameters.json` are present in the expected directory before deployment._
+
+### Step 4.2 — Deploy the ARM template
+
+Run the following command to deploy the ARM template to the resource group:
+
+```powershell
+New-AzResourceGroupDeployment `
+  -ResourceGroupName az104-rg3 `
+  -TemplateFile templates/task1-exported/template.json `
+  -TemplateParameterFile templates/task1-exported/parameters.json
+
+```
+
+This command:
+
+- Uses **Azure PowerShell**
+
+- Deploys resources to the specified **Resource Group**
+
+- Applies the updated parameter values
+
+- Creates a new managed disk `(az104-disk3)`
+
+![ARM template deployment succeeded](../screenshots/21-task3-step4-deployment-succeeded.png)
+
+_Successful deployment of the ARM template using Azure PowerShell. The provisioning state is `Succeeded` and the managed disk `az104-disk3` was created._
+
+The ARM template was deployed using Azure PowerShell with an incremental deployment mode.  
+The updated parameters file was applied, resulting in the creation of a new managed disk named `az104-disk3`.
+
+The deployment completed successfully with the provisioning state set to `Succeeded`.
+
+### Step 4.3 — Review the deployment result
+
+If the deployment is successful, the output will show:
+
+- `ProvisioningState : Succeeded`
+
+No existing resources are modified.
+
+### Step 4.4 — Verify the resource in Azure
+
+Verify that the new managed disk was created:
+
+- In the Azure Portal, navigate to:
+
+  - Resource Groups → az104-rg3 → Disks
+
+- Confirm that az104-disk3 exists
+
+![Managed disks created in az104-rg3](../screenshots/21-task3-step4-portal-verify-managed-disks.png)
+
+_Verification in the Azure Portal showing that the managed disk `az104-disk3` was successfully created in the resource group `az104-rg3`, alongside existing disks._
+
+The Azure Portal confirms that the deployment was successful.  
+The new managed disk `az104-disk3` is visible in the resource group `az104-rg3`, together with previously created disks.
+
+Alternatively, verify using PowerShell:
+
+```powershell
+Get-AzDisk -ResourceGroupName az104-rg3
+```
+
+![Verifying managed disk using Azure PowerShell](../screenshots/21-task3-step4-verify-disk-powershell.png)
+
+_Verification of the managed disk using Azure PowerShell. The output confirms that the disk exists in resource group `az104-rg3` with provisioning state `Succeeded`._
+
+As an additional verification step, Azure PowerShell was used to list managed disks in the resource group.  
+The output confirms that the managed disk exists and was successfully provisioned.
 
 ## Step 5 - Validate the deployment
-
-```
-
-```
