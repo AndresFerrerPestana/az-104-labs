@@ -1,4 +1,4 @@
-## Task 5 — Validate idempotency and deployment history
+## Task 6 — Validate idempotency and deployment history
 
 This task validates two key ARM concepts:
 
