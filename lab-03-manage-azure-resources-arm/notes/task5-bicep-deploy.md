@@ -308,3 +308,12 @@ az disk list `
 ```
 
 ![Verify the deployed disk (Azure CLI)](../screenshots/21-task5-step5-verify-disks-cli.png)
+
+### Step 6 — Verify deployed resources in the Azure Portal
+
+After completing the Bicep deployment, verify that the new managed disk was created successfully in the target Resource Group.
+
+![Verify managed disks in Azure Portal](../screenshots/21-task5-step6-verify-disks-portal.png)
+
+_Verifying the list of managed disks in the Azure Portal.  
+The presence of **az104-disk5** confirms the successful deployment using Azure Bicep, alongside the disks created using other deployment methods._
