@@ -337,7 +337,3 @@ The rationale behind this decision is explained here:
 - Bicep is the recommended abstraction over ARM JSON
 
 ---
-
-## Lab Status
-
-🟡 In progress — **Lab 03**
