@@ -47,8 +47,8 @@ The goal of this repository is to build a **structured, professional, and reprod
 ### 🧩 Administer Azure Resources (15–20%)
 
 | Status | Lab        | Description                                                                                 |
-| :----: | :--------- | :------------------------------------------------------------------------------------------ | --- |
-|   ✅   | **Lab 03** | [Manage Azure resources using ARM Templates](./lab-03-manage-azure-resources-arm/README.md) |     |
+| :----: | :--------- | :------------------------------------------------------------------------------------------ |
+|   ✅   | **Lab 03** | [Manage Azure resources using ARM Templates](./lab-03-manage-azure-resources-arm/README.md) |
 
 ### 🌐 Implement Virtual Networking (20–25%)
 
