@@ -250,7 +250,55 @@ Deployment results and verification screenshots are included in the step-by-step
 
 ## Task 5 — Bicep Deployment
 
-_To be completed_
+In this task, a new Azure Managed Disk (`az104-disk5`) was deployed using **Azure Bicep**, fulfilling the official Microsoft lab objective
+**“Deploy a resource by using Azure Bicep”**.
+
+Bicep is a domain-specific language (DSL) that provides a cleaner, more readable abstraction over ARM JSON templates, while still relying on
+**Azure Resource Manager** as the underlying deployment engine.
+
+### Objective
+
+- Deploy a resource using **Azure Bicep**
+- Understand the relationship between **Bicep and ARM**
+- Reuse the same deployment scope and resource group
+- Demonstrate parameterized, declarative deployments
+- Validate consistency with previous ARM-based deployments
+
+### Step-by-step guide
+
+Detailed instructions are available here:
+
+📄 [notes/task5-bicep-deploy.md](notes/task5-bicep-deploy.md)
+
+### Evidence
+
+Deployment results and verification screenshots are included in the step-by-step guide, including:
+
+- Bicep CLI installation and validation
+- Bicep template compilation (`az bicep build`)
+- Successful deployment using Azure CLI
+- Resource verification via Azure CLI and Azure Portal
+
+### AZ-104 learning points
+
+- Bicep templates are **transpiled to ARM JSON**
+- All Bicep deployments are executed through **Azure Resource Manager**
+- Parameterization controls resource creation without modifying templates
+- Deployments remain **incremental and idempotent**
+- Deployment history is preserved regardless of the IaC abstraction used
+
+---
+
+## Task 6 — Idempotency and Deployment History Validation (Advanced)
+
+This task goes beyond the official Microsoft lab objectives and validates
+idempotent behavior and deployment tracking in Azure Resource Manager.
+
+This validation applies to all deployment methods used in this lab
+(Portal, PowerShell, Azure CLI), and will also apply to the Bicep-based
+deployment in Task 5 once it is completed.
+
+📄 [notes/task6-idempotency-validation.md](notes/task6-idempotency-validation.md)
 
 ---
 
